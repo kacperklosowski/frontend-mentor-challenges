@@ -1,0 +1,38 @@
+name: Lint Pull Request Title
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize, ready_for_review]
+    branches:
+      - master
+
+jobs:
+  lint-pull-request-title:
+    name: Lint Pull Request Title
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            feat
+            fix
+            docs
+            style
+            refactor
+            test
+            build
+            ci
+            chore
+            revert
+          scopes: |
+            github-user-search
+            repo
+          requireScope: true
+          subjectPattern: ^(?![A-Z]).+$
+          subjectPatternError: |
+            The subject "{subject}" found in the pull request title "{title}"
+            didn't match the configured pattern. Please ensure that the subject
+            doesn't start with an uppercase character.
+          wip: true
