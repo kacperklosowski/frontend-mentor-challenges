@@ -7,7 +7,7 @@ on:
       - master
 
 permissions:
-  pull-requests: write
+  pull-requests: read
 
 jobs:
   main:
@@ -37,4 +37,3 @@ jobs:
             The subject "{subject}" found in the pull request title "{title}"
             didn't match the configured pattern. Please ensure that the subject
             doesn't start with an uppercase character.
-          wip: true
