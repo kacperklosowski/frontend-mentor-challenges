@@ -1,0 +1,11 @@
+name: Do Something On Pull Request
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+    On-Pull_request:
+        runs-on: ubuntu-latest
+        steps:
+          - run: echo "This job was trigged by ${{ github.event_name }} event."
