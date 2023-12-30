@@ -3,7 +3,7 @@ import './App.scss'
 function App() {
 
   return (
-    <p>Github user search</p>
+    <p>Github user search #1</p>
   )
 }
 
