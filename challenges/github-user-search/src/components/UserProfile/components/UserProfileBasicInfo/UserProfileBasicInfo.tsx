@@ -2,7 +2,7 @@ import UserProfileBasicNames from "./components/UserProfileBasicNames";
 import UserProfileBasicJoined from "./components/UserProfileBasicJoined";
 import UserProfileBasicAvatar from "./components/UserProfileBasicAvatar";
 
-const UserProfileBasic = () => {
+const UserProfileBasicInfo = () => {
     return (
         <div>
             <UserProfileBasicAvatar />
@@ -12,4 +12,4 @@ const UserProfileBasic = () => {
     );
 };
 
-export default UserProfileBasic;
+export default UserProfileBasicInfo;

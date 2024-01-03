@@ -1,15 +1,15 @@
-import UserProfileBasic from "./components/UserProfileBasic";
+import UserProfileBasicInfo from "./components/UserProfileBasicInfo";
 import UserProfileBio from "./components/UserProfileBio";
 import UserProfileStats from "./components/UserProfileStats";
-import UserProfileContact from "./components/UserProfileContact";
+import UserProfileContactInfo from "./components/UserProfileContactInfo";
 
 const UserProfile = () => {
     return (
         <div>
-            <UserProfileBasic/>
+            <UserProfileBasicInfo/>
             <UserProfileBio/>
             <UserProfileStats/>
-            <UserProfileContact/>
+            <UserProfileContactInfo/>
         </div>
     );
 };

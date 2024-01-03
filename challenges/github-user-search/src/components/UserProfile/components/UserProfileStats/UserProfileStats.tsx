@@ -1,4 +1,4 @@
-import UserProfileStatsUnit from "./components";
+import UserProfileStatsUnit from "./components/UserProfileStatsUnit";
 
 const UserProfileStats = () => {
     return (
