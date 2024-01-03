@@ -2,7 +2,7 @@ import SearchBarInput from "./components/SearchBarInput";
 import SearchBarButton from "./components/SearchBarButton";
 import SearchBarLogo from "./components/SearchBarLogo";
 
-const SearchBar = () => {
+export default function SearchBar() {
     return (
         <div>
             <SearchBarLogo/>
@@ -11,5 +11,3 @@ const SearchBar = () => {
         </div>
     );
 };
-
-export default SearchBar;

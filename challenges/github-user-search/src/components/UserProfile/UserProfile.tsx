@@ -3,7 +3,7 @@ import UserProfileBio from "./components/UserProfileBio";
 import UserProfileStats from "./components/UserProfileStats";
 import UserProfileContactInfo from "./components/UserProfileContactInfo";
 
-const UserProfile = () => {
+export default function UserProfile()  {
     return (
         <div>
             <UserProfileOverview/>
@@ -13,5 +13,3 @@ const UserProfile = () => {
         </div>
     );
 };
-
-export default UserProfile;

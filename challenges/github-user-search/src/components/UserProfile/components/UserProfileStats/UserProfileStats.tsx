@@ -1,13 +1,11 @@
 import UserProfileStatsUnit from "./components/UserProfileStatsUnit";
 
-const UserProfileStats = () => {
+export default function UserProfileStats() {
     return (
         <div>
-            <UserProfileStatsUnit />
-            <UserProfileStatsUnit />
-            <UserProfileStatsUnit />
+            <UserProfileStatsUnit/>
+            <UserProfileStatsUnit/>
+            <UserProfileStatsUnit/>
         </div>
     );
 };
-
-export default UserProfileStats;

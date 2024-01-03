@@ -1,9 +1,7 @@
-const NavigationLogo = () => {
+export default function NavigationLogo() {
     return (
         <div>
-          Navigation Logo
+            Navigation Logo
         </div>
     );
 };
-
-export default NavigationLogo;

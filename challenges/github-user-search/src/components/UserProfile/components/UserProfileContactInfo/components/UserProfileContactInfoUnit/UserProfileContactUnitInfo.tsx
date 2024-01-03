@@ -1,9 +1,7 @@
-const UserProfileContactUnitInfo = () => {
+export default function UserProfileContactUnitInfo() {
     return (
         <div>
             Logo + Name
         </div>
     );
 };
-
-export default UserProfileContactUnitInfo;

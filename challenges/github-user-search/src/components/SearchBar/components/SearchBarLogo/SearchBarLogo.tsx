@@ -1,9 +1,7 @@
-const SearchBarLogo = () => {
+export default function SearchBarLogo() {
     return (
         <div>
             <p>Search Logo</p>
         </div>
     );
 };
-
-export default SearchBarLogo;

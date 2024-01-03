@@ -1,9 +1,7 @@
-const UserProfileStatsUnit = () => {
+export default function UserProfileStatsUnit() {
     return (
         <div>
             Category + Number
         </div>
     );
 };
-
-export default UserProfileStatsUnit;

@@ -4,7 +4,7 @@ import Navigation from "./components/Navigation";
 import SearchBar from "./components/SearchBar";
 import UserProfile from "./components/UserProfile";
 
-function App() {
+export default function App() {
     console.log(mockedUserProfile)
     return (
         <div>
@@ -14,5 +14,3 @@ function App() {
         </div>
     )
 }
-
-export default App

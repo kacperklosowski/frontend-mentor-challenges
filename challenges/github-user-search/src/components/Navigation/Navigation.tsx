@@ -1,11 +1,9 @@
 import NavigationLogo from "./components/NavigationLogo";
 
-const Navigation = () => {
+export default function Navigation() {
     return (
         <div>
-            <NavigationLogo />
+            <NavigationLogo/>
         </div>
     );
 };
-
-export default Navigation;

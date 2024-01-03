@@ -1,14 +1,12 @@
 import UserProfileContactUnitInfo from "./components/UserProfileContactInfoUnit";
 
-const UserProfileContactInfo = () => {
+export default function UserProfileContactInfo() {
     return (
         <div>
-            <UserProfileContactUnitInfo />
-            <UserProfileContactUnitInfo />
-            <UserProfileContactUnitInfo />
-            <UserProfileContactUnitInfo />
+            <UserProfileContactUnitInfo/>
+            <UserProfileContactUnitInfo/>
+            <UserProfileContactUnitInfo/>
+            <UserProfileContactUnitInfo/>
         </div>
     );
 };
-
-export default UserProfileContactInfo;

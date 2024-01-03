@@ -1,4 +1,4 @@
-const UserProfileOverviewIdentity = () => {
+export default function UserProfileOverviewIdentity() {
     return (
         <div>
             <p>The Octocat</p>
@@ -6,5 +6,3 @@ const UserProfileOverviewIdentity = () => {
         </div>
     );
 };
-
-export default UserProfileOverviewIdentity;

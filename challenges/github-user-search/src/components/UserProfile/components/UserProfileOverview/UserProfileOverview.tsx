@@ -2,14 +2,12 @@ import UserProfileOverviewIdentity from "./components/UserProfileOverviewIdentit
 import UserProfileOverviewJoined from "./components/UserProfileOverviewJoined";
 import UserProfileOverviewAvatar from "./components/UserProfileOverviewAvatar";
 
-const UserProfileOverview = () => {
+export default function UserProfileOverview() {
     return (
         <div>
-            <UserProfileOverviewAvatar />
-            <UserProfileOverviewIdentity />
-            <UserProfileOverviewJoined />
+            <UserProfileOverviewAvatar/>
+            <UserProfileOverviewIdentity/>
+            <UserProfileOverviewJoined/>
         </div>
     );
 };
-
-export default UserProfileOverview;
