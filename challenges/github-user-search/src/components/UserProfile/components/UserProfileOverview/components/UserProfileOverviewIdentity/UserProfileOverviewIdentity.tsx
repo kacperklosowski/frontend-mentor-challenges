@@ -1,4 +1,4 @@
-const UserProfileBasicNames = () => {
+const UserProfileOverviewIdentity = () => {
     return (
         <div>
             <p>The Octocat</p>
@@ -7,4 +7,4 @@ const UserProfileBasicNames = () => {
     );
 };
 
-export default UserProfileBasicNames;
+export default UserProfileOverviewIdentity;

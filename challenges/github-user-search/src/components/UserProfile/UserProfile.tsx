@@ -1,4 +1,4 @@
-import UserProfileBasicInfo from "./components/UserProfileBasicInfo";
+import UserProfileOverview from "./components/UserProfileOverview";
 import UserProfileBio from "./components/UserProfileBio";
 import UserProfileStats from "./components/UserProfileStats";
 import UserProfileContactInfo from "./components/UserProfileContactInfo";
@@ -6,7 +6,7 @@ import UserProfileContactInfo from "./components/UserProfileContactInfo";
 const UserProfile = () => {
     return (
         <div>
-            <UserProfileBasicInfo/>
+            <UserProfileOverview/>
             <UserProfileBio/>
             <UserProfileStats/>
             <UserProfileContactInfo/>

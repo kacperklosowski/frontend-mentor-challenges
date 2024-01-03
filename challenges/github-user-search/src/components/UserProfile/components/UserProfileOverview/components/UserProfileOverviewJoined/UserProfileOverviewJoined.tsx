@@ -1,4 +1,4 @@
-const UserProfileBasicJoined = () => {
+const UserProfileOverviewJoined = () => {
     return (
         <div>
             <p>Joined 25 Jan 2011</p>
@@ -6,4 +6,4 @@ const UserProfileBasicJoined = () => {
     );
 };
 
-export default UserProfileBasicJoined;
+export default UserProfileOverviewJoined;

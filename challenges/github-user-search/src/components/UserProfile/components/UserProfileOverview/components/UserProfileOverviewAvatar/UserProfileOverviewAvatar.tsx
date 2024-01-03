@@ -1,4 +1,4 @@
-const UserProfileBasicAvatar = () => {
+const UserProfileOverviewAvatar = () => {
     return (
         <div>
             <p>User Profile Avatar</p>
@@ -6,4 +6,4 @@ const UserProfileBasicAvatar = () => {
     );
 };
 
-export default UserProfileBasicAvatar;
+export default UserProfileOverviewAvatar;
