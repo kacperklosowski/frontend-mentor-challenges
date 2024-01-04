@@ -1,2 +1,2 @@
-import UserProfileContactUnitInfo from "./UserProfileContactUnitInfo.tsx";
-export default UserProfileContactUnitInfo;
+import UserProfileContactInfoUnit from "./UserProfileContactInfoUnit.tsx";
+export default UserProfileContactInfoUnit;

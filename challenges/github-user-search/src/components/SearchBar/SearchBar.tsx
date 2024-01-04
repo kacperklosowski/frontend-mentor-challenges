@@ -1,11 +1,12 @@
+/// <reference types="vite-plugin-svgr/client" />
+import SearchBarIcon from "./assets/icon-search.svg?react";
 import SearchBarInput from "./components/SearchBarInput";
 import SearchBarButton from "./components/SearchBarButton";
-import SearchBarLogo from "./components/SearchBarLogo";
 
 export default function SearchBar() {
     return (
         <div>
-            <SearchBarLogo/>
+            <SearchBarIcon/>
             <SearchBarInput/>
             <SearchBarButton/>
         </div>
