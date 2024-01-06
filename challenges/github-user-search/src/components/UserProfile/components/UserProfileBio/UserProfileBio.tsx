@@ -1,7 +1,9 @@
+import {useUserContext} from "../../../../hooks/useUserContext.ts";
+
 export default function UserProfileBio() {
+    const {bio} = useUserContext();
+
     return (
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
-        </div>
+        <p>{bio}</p>
     );
 };

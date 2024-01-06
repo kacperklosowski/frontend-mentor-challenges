@@ -1,10 +1,14 @@
+import {useUserContext} from "../../../../hooks/useUserContext.ts";
+
 export default function UserProfileOverview() {
+    const {avatarUrl, name, login, createdAt} = useUserContext();
+
     return (
         <div>
-            <p>Avatar</p>
-            <p>The Octocat</p>
-            <p>@octocat</p>
-            <p>Joined 25 Jan 2011</p>
+            <p>{avatarUrl}</p>
+            <p>{name}</p>
+            <p>{login}</p>
+            <p>{createdAt}</p>
         </div>
     );
 };

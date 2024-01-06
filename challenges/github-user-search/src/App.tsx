@@ -1,16 +1,17 @@
-import './App.scss'
-import mockedUserProfile from "./data/mockedUserProfile.ts";
 import Navigation from "./components/Navigation";
 import SearchBar from "./components/SearchBar";
 import UserProfile from "./components/UserProfile";
+import {UserContextProvider} from "./providers/UserContextProvider.tsx";
+import './App.scss'
 
 export default function App() {
-    console.log(mockedUserProfile)
     return (
         <div>
             <Navigation/>
             <SearchBar/>
-            <UserProfile/>
+            <UserContextProvider>
+                <UserProfile/>
+            </UserContextProvider>
         </div>
     )
 }
