@@ -1,9 +1,7 @@
 import UserProfileStatsUnit from "./components/UserProfileStatsUnit";
-import {useUserContext} from "../../../../hooks/useUserContext.ts";
+import {UserProfileStatsProps} from "./types.ts";
 
-export default function UserProfileStats() {
-    const {publicRepos, followers, following} = useUserContext();
-
+export default function UserProfileStats({publicRepos, followers, following}: UserProfileStatsProps) {
     return (
         <div>
             <UserProfileStatsUnit category='Repos' amount={publicRepos}/>

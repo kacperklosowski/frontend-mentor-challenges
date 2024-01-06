@@ -1,8 +1,6 @@
-import {useUserContext} from "../../../../hooks/useUserContext.ts";
+import {UserProfileBioProps} from "./types.ts";
 
-export default function UserProfileBio() {
-    const {bio} = useUserContext();
-
+export default function UserProfileBio({bio}: UserProfileBioProps) {
     return (
         <p>{bio}</p>
     );

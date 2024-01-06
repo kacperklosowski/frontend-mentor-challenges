@@ -1,10 +1,6 @@
-import type {ComponentType} from 'react';
+import {UserProfileContactInfoUnitProps} from "./types.ts";
 
-type Props = {
-    Icon: ComponentType;
-    label: string | null;
-}
-export default function UserProfileContactInfoUnit({Icon, label}: Props) {
+export default function UserProfileContactInfoUnit({Icon, label}: UserProfileContactInfoUnitProps) {
     return (
         <div>
             <Icon/>

@@ -1,8 +1,6 @@
-import {useUserContext} from "../../../../hooks/useUserContext.ts";
+import {UserProfileOverviewProps} from "./types.ts";
 
-export default function UserProfileOverview() {
-    const {avatarUrl, name, login, createdAt} = useUserContext();
-
+export default function UserProfileOverview({name, createdAt, login, avatarUrl}: UserProfileOverviewProps) {
     return (
         <div>
             <p>{avatarUrl}</p>

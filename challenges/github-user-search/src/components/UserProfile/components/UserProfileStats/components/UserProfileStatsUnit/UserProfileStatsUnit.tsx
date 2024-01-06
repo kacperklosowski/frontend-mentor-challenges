@@ -1,9 +1,6 @@
-type Props = {
-    category: string;
-    amount: number;
-}
+import {UserProfileStatsUnitProps} from "./types.ts";
 
-export default function UserProfileStatsUnit({category, amount}: Props) {
+export default function UserProfileStatsUnit({category, amount}: UserProfileStatsUnitProps) {
     return (
         <div>
             <p>{category}</p>
