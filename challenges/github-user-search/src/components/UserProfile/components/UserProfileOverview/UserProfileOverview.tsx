@@ -4,8 +4,8 @@ export default function UserProfileOverview({name, createdAt, login, avatarUrl}:
     return (
         <div>
             <p>{avatarUrl}</p>
-            <p>{name}</p>
-            <p>{login}</p>
+            <p>{name || login}</p>
+            <p>@{login}</p>
             <p>{createdAt}</p>
         </div>
     );

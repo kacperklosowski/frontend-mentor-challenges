@@ -4,7 +4,7 @@ export default function UserProfileContactInfoUnit({Icon, label}: UserProfileCon
     return (
         <div>
             <Icon/>
-            {label}
+            {label || "Not available"}
         </div>
     );
 };
